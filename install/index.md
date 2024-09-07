@@ -1,8 +1,3 @@
----
-layout: install
-title: Installing Beaker
----
-
 # Install Beaker
 
 # Windows
