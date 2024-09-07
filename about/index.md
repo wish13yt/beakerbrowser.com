@@ -20,10 +20,6 @@ header: dark
     Beaker is a project by <a href="https://bluelinklabs.com">Blue Link Labs</a>, a team of developers who love the Web.
   </p>
 
-  <p>
-    {% include team.html %}
-  </p>
-
   <h2>
     Get started
   </h2>
