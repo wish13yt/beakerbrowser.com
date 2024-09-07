@@ -29,8 +29,8 @@ header: dark
   </p>
 
   <p>
-    <a class="btn action" href="/install">Install Beaker</a>
-    <a class="btn blue" href="/docs/tour">Take a tour</a>
+    <a class="btn action" href="/install"><button>Install Beaker</button></a>
+    <a class="btn blue" href="/docs/tour"><button>Take a tour</button></a>
   </p>
 
   <p>
