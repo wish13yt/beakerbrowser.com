@@ -1,12 +1,4 @@
----
-layout: home
-header: light
-desc: Beaker is a new peer-to-peer browser for a Web where users control their data and websites are hosted locally.
----
-<div class="hero">
-
-  {% comment %}
-  <div class="container">
+<div class="container">
     <a class="notice" href="https://decentralizedweb.net/">
       <div class="badge round">
         July 31
@@ -17,7 +9,6 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
       </span>
     </a>
   </div>
-  {% endcomment %}
 
   <div class="container hero-container">
     <div class="hero-container-col">
@@ -30,12 +21,16 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
       </p>
 
       <p class="cta">
-        <a href="/install/" class="btn action white">
+        <a href="install/" class="btn action white">
+          <button>
           Install Beaker
+          </button>
         </a>
 
         <a href="https://docs.beakerbrowser.com/" class="btn white">
-          Read the Docs
+          <button disabled>
+          Read the Docs (Broken)
+          </button>
         </a>
       </p>
     </div>
@@ -46,12 +41,10 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
   </div>
 
   <div class="testimonials-wrapper">
-    {% for t in site.data.testimonials %}
       <a class="testimonial" href="{{ t.href }}">
         <img class="avatar" src="{{ t.img }}"/>
         <q class="testimonial__quote">{{ t.text }}</q>
       </a>
-    {% endfor %}
   </div>
 
   <div class="container">
@@ -61,14 +54,14 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
     </button>
   </div>
 
-  <script src="/js/testimonials.js"></script>
+  <script src="js/testimonials.js"></script>
 </div>
 
 <div class="section features">
   <div class="container featuregrid">
     <div class="featuregrid-col">
       <div class="img-container">
-        <img src="/img/feature-instant-deploy.png">
+        <img src="img/feature-instant-deploy.png">
       </div>
       <h2>Create a P2P site</h2>
       <p>
@@ -78,7 +71,7 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
 
     <div class="featuregrid-col">
       <div class="img-container">
-        <img src="/img/feature-editor.png">
+        <img src="img/feature-editor.png">
       </div>
       <h2>Edit the source</h2>
       <p>
@@ -88,7 +81,7 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
 
     <div class="featuregrid-col">
       <div class="img-container">
-        <img src="/img/feature-cohost.png">
+        <img src="img/feature-cohost.png">
       </div>
       <h2>And share!</h2>
       <p>
@@ -98,13 +91,12 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
   </div>
 </div>
 
-{% include midcta.html %}
 
 <div class="section how-it-works">
   <div class="container narrow">
     <div class="columns">
       <div class="col col-1-2">
-        <img src="/img/how-it-works/url-bar.svg"/>
+        <img src="img/how-it-works/url-bar.svg"/>
       </div>
     
       <div class="col col-1-2">
@@ -124,7 +116,6 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
   <div class="container columns">
     <div class="col col-1-2">
       <div class="codebox">
-        {% include code-examples/hyperdrive.html %}
       </div>
     </div>
     <div class="col col-1-2">
@@ -137,7 +128,7 @@ desc: Beaker is a new peer-to-peer browser for a Web where users control their d
 <div class="section what">
   <div class="container columns">
     <div class="col col-1-2">
-      <img src="/img/what-is-beaker.svg"/>
+      <img src="img/what-is-beaker.svg"/>
     </div>
 
     <div class="col col-1-2">
