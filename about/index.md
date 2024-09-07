@@ -20,10 +20,6 @@ header: dark
     Beaker is a project by <a href="https://bluelinklabs.com">Blue Link Labs</a>, a team of developers who love the Web.
   </p>
 
-  <p>
-    {% include team.html %}
-  </p>
-
   <h2>
     Get started
   </h2>
@@ -33,8 +29,8 @@ header: dark
   </p>
 
   <p>
-    <a class="btn action" href="/install">Install Beaker</a>
-    <a class="btn blue" href="/docs/tour">Take a tour</a>
+    <a class="btn action" href="/install"><button>Install Beaker</button></a>
+    <a class="btn blue" href="/docs/tour"><button>Take a tour</button></a>
   </p>
 
   <p>
